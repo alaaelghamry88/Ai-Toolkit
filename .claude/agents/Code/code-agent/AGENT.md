@@ -11,6 +11,12 @@ model: claude-sonnet-4-6
 Take a feature description or ticket and produce a working, tested component that follows
 team conventions and passes the quality checklist.
 
+## Referenced Skills (apply throughout all steps)
+
+- **`skills/Code/react/vercel-react-best-practices/`** — enforce performance rules (async, bundle, re-render, server, rendering) during implementation
+- **`skills/Design/react/vercel-react-view-transitions/`** — apply `<ViewTransition>` patterns when the component involves navigation, list reorder, or enter/exit animations
+- **`skills/Design/shared/web-design-guidelines/`** — validate generated UI against Web Interface Guidelines before finalizing
+
 ## Steps
 
 1. Read `.claude/config.md` → note `stack`, `styling`, `component-lib`, `lang`, `test-runner`

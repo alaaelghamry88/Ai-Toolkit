@@ -11,6 +11,12 @@ model: claude-sonnet-4-6
 Take a design input (Figma link, screenshot, or description) and produce a production-ready
 component that matches the design, uses project tokens, is responsive, and passes a11y review.
 
+## Referenced Skills (apply throughout all steps)
+
+- **`skills/Design/shared/web-design-guidelines/`** — validate generated UI against Web Interface Guidelines before finalizing
+- **`skills/Design/react/vercel-react-view-transitions/`** — apply `<ViewTransition>` patterns for any navigation, list, or enter/exit animations in the component
+- **`skills/Code/react/vercel-react-best-practices/`** — enforce performance rules (bundle, re-render, rendering) during JSX implementation
+
 ## Steps
 
 1. Read `.claude/config.md` → note `stack`, `styling`, `component-lib`, `lang`

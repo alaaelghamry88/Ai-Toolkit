@@ -6,6 +6,14 @@ description: Converts a Figma design spec or screenshot into a production-ready 
 invocation: auto
 ---
 
+## Referenced Skills
+
+Consult these skills throughout implementation:
+
+- **`Design/shared/web-design-guidelines`** — validate the output UI against Web Interface Guidelines before finalizing
+- **`Design/react/vercel-react-view-transitions`** — apply `<ViewTransition>` patterns for any navigation, list, or enter/exit animations in the component
+- **`Code/react/vercel-react-best-practices`** — apply performance rules (bundle, re-render, rendering) when generating the JSX implementation
+
 ## Instructions
 
 1. Read `.claude/config.md` — note styling (tailwind/css-modules), component-lib, lang (ts/js)

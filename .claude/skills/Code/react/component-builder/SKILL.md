@@ -6,6 +6,14 @@ description: Builds a React component from a description, design spec, or requir
 invocation: auto
 ---
 
+## Referenced Skills
+
+Consult these skills throughout implementation:
+
+- **`Code/react/vercel-react-best-practices`** — apply performance rules (re-render, bundle, async, server) when writing components
+- **`Design/react/vercel-react-view-transitions`** — use `<ViewTransition>` patterns when the component involves navigation, list reorder, or enter/exit animations
+- **`Design/shared/web-design-guidelines`** — check generated UI against Web Interface Guidelines before finalizing
+
 ## Instructions
 
 1. Read `.claude/config.md` — use stack, styling, component-lib, lang, test-runner values
