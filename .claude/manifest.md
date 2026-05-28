@@ -42,3 +42,5 @@ Install via the Claude Code skill marketplace or copy SKILL.md into the relevant
 | `perf-profiler` | Debug/react + Debug/angular | Per-stack profiling |
 | `a11y-standards` | Review/shared | Accessibility review |
 | `pr-checklist` | Review/shared | Team PR gates |
+| `refactor` | Code/shared | Test-gated structural refactoring |
+| `brownfield` | shared | Feature folder context loading for existing codebases |
