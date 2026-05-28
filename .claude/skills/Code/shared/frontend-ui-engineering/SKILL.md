@@ -4,7 +4,7 @@ description: Builds production-quality UI components with component architecture
   adherence, and WCAG 2.1 AA accessibility. Use when implementing any significant UI feature,
   designing component structure, or auditing an existing component for quality and accessibility.
   Adapted from agent-skills/frontend-ui-engineering.
-invocation: auto
+user-invocable: false
 ---
 
 ## Instructions

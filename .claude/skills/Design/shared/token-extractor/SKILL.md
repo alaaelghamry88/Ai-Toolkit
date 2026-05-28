@@ -3,7 +3,7 @@ name: token-extractor
 description: Extracts design tokens from a Figma file, CSS, or existing codebase and
   generates a structured token file. Use when setting up a new project's token system,
   syncing tokens from Figma, or auditing token usage across the codebase.
-invocation: auto
+user-invocable: false
 ---
 
 ## Instructions

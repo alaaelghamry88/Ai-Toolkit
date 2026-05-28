@@ -4,7 +4,7 @@ description: Conducts a five-axis code review for Angular code — correctness, 
   architecture, security, and performance. Use before merging any Angular PR, after feature
   completion, or when evaluating code quality.
   Adapted from agent-skills/code-review-and-quality (Angular variant).
-invocation: auto
+user-invocable: false
 ---
 
 ## Instructions

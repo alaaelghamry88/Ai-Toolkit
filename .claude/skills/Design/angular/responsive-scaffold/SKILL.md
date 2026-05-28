@@ -3,7 +3,7 @@ name: responsive-scaffold
 description: Scaffolds a responsive Angular layout component with mobile-first breakpoints.
   Use when creating a new page layout, section, or container that must adapt across
   screen sizes in an Angular project.
-invocation: auto
+user-invocable: false
 ---
 
 ## Instructions

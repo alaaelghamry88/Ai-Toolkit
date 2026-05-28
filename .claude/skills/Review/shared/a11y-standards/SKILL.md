@@ -5,7 +5,7 @@ description: Reviews a component or page for WCAG 2.1 AA accessibility complianc
   or after receiving an accessibility bug report. Covers keyboard, screen reader,
   color contrast, and ARIA correctness.
   Adapted from agent-skills/frontend-ui-engineering accessibility section.
-invocation: auto
+user-invocable: false
 ---
 
 ## Instructions

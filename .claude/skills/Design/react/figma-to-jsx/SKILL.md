@@ -3,7 +3,7 @@ name: figma-to-jsx
 description: Converts a Figma design spec or screenshot into a production-ready React JSX component.
   Use when implementing a new UI from a Figma link, screenshot, or design description.
   Handles layout, spacing, typography, and component decomposition for React.
-invocation: auto
+user-invocable: false
 ---
 
 ## Referenced Skills

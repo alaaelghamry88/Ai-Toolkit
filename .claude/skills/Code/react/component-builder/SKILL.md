@@ -3,7 +3,7 @@ name: component-builder
 description: Builds a React component from a description, design spec, or requirements.
   Use when creating new UI components, implementing layouts, or scaffolding component
   structure. Follows team conventions for naming, file structure, and component-lib usage.
-invocation: auto
+user-invocable: false
 ---
 
 ## Referenced Skills

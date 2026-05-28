@@ -4,7 +4,7 @@ description: Executes systematic bug triage — reproduce, localize, reduce, fix
   Use when something is broken and the cause is unclear. Applies to any layer:
   UI, API, build tools, or external services.
   Adapted from agent-skills/debugging-and-error-recovery.
-invocation: auto
+user-invocable: false
 ---
 
 ## Instructions

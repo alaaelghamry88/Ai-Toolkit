@@ -3,7 +3,7 @@ name: hook-debugger
 description: Diagnoses React hook lifecycle issues including stale closures, infinite render loops,
   incorrect dependency arrays, and effect timing problems. Use when a React component
   behaves unexpectedly, re-renders too often, or produces stale/incorrect values.
-invocation: auto
+user-invocable: false
 ---
 
 ## Instructions

@@ -3,7 +3,7 @@ name: responsive-scaffold
 description: Scaffolds a responsive React layout with mobile-first breakpoints.
   Use when creating a new page layout, section, or container that must adapt across
   screen sizes. Generates the shell — fill in content after.
-invocation: auto
+user-invocable: false
 ---
 
 ## Instructions

@@ -3,7 +3,7 @@ name: perf-profiler
 description: Profiles and fixes React rendering performance issues — unnecessary re-renders,
   slow component trees, and expensive computations. Use when a React UI feels laggy,
   interactions are slow, or the React Profiler shows unexpected renders.
-invocation: auto
+user-invocable: false
 ---
 
 ## Instructions

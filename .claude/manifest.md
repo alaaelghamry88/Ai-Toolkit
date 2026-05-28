@@ -3,6 +3,14 @@
 Native Claude Code marketplace skills used in this toolkit.
 Install via the Claude Code skill marketplace or copy SKILL.md into the relevant folder.
 
+## Adopted from Vercel Agent Skills
+
+| Skill | Bundle | Path |
+|-------|--------|------|
+| `vercel-react-best-practices` | Code/react | `skills/Code/react/vercel-react-best-practices/` |
+| `vercel-react-view-transitions` | Design/react | `skills/Design/react/vercel-react-view-transitions/` |
+| `web-design-guidelines` | Design/shared | `skills/Design/shared/web-design-guidelines/` |
+
 ## Adopted from agent-skills (addyosmani/agent-skills)
 
 | Skill | Bundle | Path |
@@ -13,6 +21,12 @@ Install via the Claude Code skill marketplace or copy SKILL.md into the relevant
 | `debugging-and-error-recovery` | Debug/shared | `skills/Debug/shared/debugging-and-error-recovery/` |
 | `code-review-and-quality` | Review/react + Review/angular | `skills/Review/react/code-review-and-quality/` `skills/Review/angular/code-review-and-quality/` |
 | `context-engineering` | agents/shared/explore | `agents/shared/explore/` |
+
+## Adopted from andrej-karpathy-skills
+
+| File | Purpose |
+|------|---------|
+| `CLAUDE.md` | Behavioral guidelines for LLM coding — think before coding, simplicity first, surgical changes, goal-driven execution |
 
 ## Custom Skills
 

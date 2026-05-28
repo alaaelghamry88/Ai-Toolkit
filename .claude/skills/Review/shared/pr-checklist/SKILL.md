@@ -3,7 +3,7 @@ name: pr-checklist
 description: Runs the team PR gate checklist before a pull request is marked ready for review.
   Use before opening a PR or promoting a draft PR. Confirms tests pass, coverage thresholds
   are met, a11y is checked, and the PR description is complete.
-invocation: auto
+user-invocable: false
 ---
 
 ## Instructions

@@ -3,7 +3,7 @@ name: perf-profiler
 description: Profiles and fixes Angular rendering performance issues — slow change detection cycles,
   unvirtualized lists, heavy pipes, and zone.js overhead. Use when an Angular UI feels
   laggy, interactions are slow, or the Angular DevTools Profiler shows slow CD cycles.
-invocation: auto
+user-invocable: false
 ---
 
 ## Instructions

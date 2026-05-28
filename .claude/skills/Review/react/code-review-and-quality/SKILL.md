@@ -4,7 +4,7 @@ description: Conducts a five-axis code review for React code — correctness, re
   architecture, security, and performance. Use before merging any React PR, after feature
   completion, or when evaluating code quality.
   Adapted from agent-skills/code-review-and-quality (React variant).
-invocation: auto
+user-invocable: false
 ---
 
 ## Instructions

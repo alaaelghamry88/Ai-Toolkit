@@ -4,7 +4,7 @@ description: Measures, diagnoses, and fixes frontend performance issues targetin
   Use when performance feels slow, CWV metrics are below threshold, a feature handles
   large data volumes, or after implementing a significant new UI feature.
   Adapted from agent-skills/performance-optimization.
-invocation: auto
+user-invocable: false
 ---
 
 ## Instructions

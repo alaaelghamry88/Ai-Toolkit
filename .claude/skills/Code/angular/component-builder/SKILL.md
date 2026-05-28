@@ -3,7 +3,7 @@ name: component-builder
 description: Builds an Angular component from a description, design spec, or requirements.
   Use when creating new UI components, implementing layouts, or scaffolding Angular
   component structure. Follows team conventions for naming, modules, and component-lib usage.
-invocation: auto
+user-invocable: false
 ---
 
 ## Instructions

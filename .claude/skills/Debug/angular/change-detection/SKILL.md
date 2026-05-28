@@ -3,7 +3,7 @@ name: change-detection
 description: Diagnoses Angular change detection issues — unexpected re-renders, ExpressionChangedAfterItHasBeenCheckedError,
   OnPush components not updating, and zone.js performance problems. Use when an Angular
   component displays stale data, errors on detection, or causes performance issues.
-invocation: auto
+user-invocable: false
 ---
 
 ## Instructions

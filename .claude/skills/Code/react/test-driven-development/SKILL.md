@@ -4,7 +4,7 @@ description: Applies Red-Green-Refactor TDD methodology for React components and
   Use when writing new features, fixing bugs, or adding behaviour to React code.
   Tests are written before implementation — "seems right" is not done.
   Adapted from agent-skills/test-driven-development (React variant).
-invocation: auto
+user-invocable: false
 ---
 
 ## Instructions

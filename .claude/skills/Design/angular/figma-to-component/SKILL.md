@@ -3,7 +3,7 @@ name: figma-to-component
 description: Converts a Figma design spec or screenshot into a production-ready Angular component.
   Use when implementing a new UI from a Figma link, screenshot, or design description.
   Handles layout, spacing, typography, and component decomposition for Angular.
-invocation: auto
+user-invocable: false
 ---
 
 ## Instructions

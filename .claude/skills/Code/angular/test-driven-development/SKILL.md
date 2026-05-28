@@ -4,7 +4,7 @@ description: Applies Red-Green-Refactor TDD methodology for Angular components a
   Use when writing new features, fixing bugs, or adding behaviour to Angular code.
   Tests are written before implementation.
   Adapted from agent-skills/test-driven-development (Angular variant).
-invocation: auto
+user-invocable: false
 ---
 
 ## Instructions

@@ -179,7 +179,7 @@ name: component-builder
 description: Builds React components from description or Figma spec.
   Use when creating new UI components, implementing layouts, or
   scaffolding component structure.
-invocation: auto
+user-invocable: false
 ---
 
 ## Instructions
