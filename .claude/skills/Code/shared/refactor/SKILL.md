@@ -12,6 +12,10 @@ user-invocable: false
 - **`Code/react/test-driven-development`** or **`Code/angular/test-driven-development`** — the test suite is the safety net; read the TDD skill to understand the test conventions in use
 - **`Review/shared/code-review-and-quality`** — use the architecture axis to validate the post-refactor structure
 
+## Referenced Agents
+
+- **`agents/shared/blast-radius/`** — run during pre-flight to score how widely the target is depended on
+
 ## Instructions
 
 **The invariant: tests pass before. Tests pass after. Nothing else is acceptable.**
@@ -32,6 +36,12 @@ user-invocable: false
    > Refactor halted: tests are already failing before any changes. Fix the failures first, then re-run the refactor.
 
 Only proceed when the suite is green.
+
+5. Fork `agents/shared/blast-radius/` on the target file → receive risk report
+   - **CRITICAL risk → STOP.** Output the blast-radius report and:
+     > Refactor halted: this file has CRITICAL blast radius. Agree on a migration strategy before making structural changes.
+   - **HIGH risk** → display the report, then continue with an explicit warning in the output
+   - **MEDIUM / LOW** → display the report, continue normally
 
 ---
 

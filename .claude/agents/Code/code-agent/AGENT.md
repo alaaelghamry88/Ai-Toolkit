@@ -21,7 +21,11 @@ team conventions and passes the quality checklist.
 
 1. Read `.claude/config.md` → note `stack`, `styling`, `component-lib`, `lang`, `test-runner`
 2. Fork `agents/shared/explore/` on the target file location → receive context snapshot
-3. Fork `agents/Code/scaffolder/` → receive the component shell
+3. **If the task modifies an existing file** (not creating from scratch): fork `agents/shared/blast-radius/` on that file → receive risk report
+   - **CRITICAL** → surface the report to the user and pause for confirmation before proceeding
+   - **HIGH** → include the report in output as a warning; proceed
+   - **MEDIUM / LOW** → proceed; include risk level in final output summary
+4. Fork `agents/Code/scaffolder/` → receive the component shell
 4. Select skill variant based on `config.stack`:
    - `react` → `skills/Code/react/component-builder/`
    - `angular` → `skills/Code/angular/component-builder/`
@@ -39,6 +43,7 @@ team conventions and passes the quality checklist.
 
 **Feature:** <description>
 **Files generated:** <list>
+**Blast radius:** <risk level, or "new file — not applicable">
 **Tests:** <test file, passing count>
 **Quality check:** <checklist summary>
 **Stack conventions followed:** <yes / deviations noted>
